@@ -3,3 +3,8 @@
 ################################################################################
 
 /SATURAN/bin
+/SATURAN/Scripts/App/*.js
+/SATURAN/Scripts/App/*.map
+/SATURAN/node_modules
+/SATURAN/typings
+
