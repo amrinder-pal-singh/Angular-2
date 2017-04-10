@@ -201,6 +201,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Scripts\App\app.component.css" />
     <Content Include="Scripts\App\app.component.html" />
+    <Content Include="Scripts\App\asset\12584810.jpeg" />
     <Content Include="Scripts\App\home\welcome.component.html" />
     <Content Include="Scripts\App\products\product-detail.component.html" />
     <Content Include="Scripts\App\products\product-list.component.css" />
@@ -250,9 +251,11 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Project_Readme.html" />
-    <Content Include="Scripts\api\products\products.json" />
+    <Content Include="api\products\products.json" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\App\app.component.ts" />

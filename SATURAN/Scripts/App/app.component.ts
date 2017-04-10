@@ -9,10 +9,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" [routerLink]="['/welcome']">Home</a>
+                    <a class="nav-link" [routerLink]="['welcome']">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/products']">Products</a>
+                    <a class="nav-link" [routerLink]="['products']">Products</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" >Disabled</a>
